@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #fff;
+  background: #282a36;
   padding: 0 30px;
 `;
 
@@ -17,15 +17,18 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
 
-    img {
+    h1 {
       margin-right: 20px;
       padding-right: 20px;
       border-right: 1px solid #eee;
+      font-family: 'Bungee Shade', inline;
+      font-size: 20px;
+      color: white;
     }
 
     a {
       font-weight: bold;
-      color: #7159c1;
+      color: #999;
     }
   }
 
@@ -47,7 +50,7 @@ export const Profile = styled.div`
 
     strong {
       display: block;
-      color: #333;
+      color: #eee;
     }
 
     a {
